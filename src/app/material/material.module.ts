@@ -10,7 +10,10 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 const Material = [
     MatButtonModule,
@@ -24,7 +27,11 @@ const Material = [
     MatNativeDateModule,
     MatRadioModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
 ];
 
 @NgModule({
@@ -32,4 +39,4 @@ const Material = [
     imports: [Material],
     exports: [Material]
 })
-export class MaterialModule { }
+export class MaterialModule {}

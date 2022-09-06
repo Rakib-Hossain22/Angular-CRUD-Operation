@@ -1,0 +1,59 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "date": "2022-09-04T18:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 100,
+      "comment": "This is fresh apple",
+      "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "date": "2022-09-04T18:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 50,
+      "comment": "This is not Fresh",
+      "id": 2
+    },
+    {
+      "productName": "Hp",
+      "category": "Electronics",
+      "date": "2022-09-04T18:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 75000,
+      "comment": "This is the best product",
+      "id": 3
+    },
+    {
+      "productName": "Acer",
+      "category": "Electronics",
+      "date": "2022-09-05T18:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 70000,
+      "comment": "This is the good product",
+      "id": 4
+    },
+    {
+      "productName": "Cucumber",
+      "category": "Vegetables",
+      "date": "2022-09-05T18:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 100,
+      "comment": "This is fresh vegetables",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
