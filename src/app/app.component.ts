@@ -4,7 +4,7 @@ import { ApiService } from './services/api.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
     constructor(
         private dialog: MatDialog,
         private api: ApiService,
-    ) { }
+    ) {}
     ngOnInit(): void {
         this.getAllProducts();
     }

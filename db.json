@@ -1,21 +1,12 @@
 {
   "productList": [
     {
-      "productName": "Apple",
-      "category": "Fruits",
-      "date": "2022-09-04T18:00:00.000Z",
-      "freshness": "Brand New",
-      "price": 100,
-      "comment": "This is fresh apple",
-      "id": 1
-    },
-    {
       "productName": "Mango",
       "category": "Fruits",
       "date": "2022-09-04T18:00:00.000Z",
-      "freshness": "Second Hand",
+      "freshness": "Brand New",
       "price": 50,
-      "comment": "This is not Fresh",
+      "comment": "This is Fresh Fruit",
       "id": 2
     },
     {
@@ -44,6 +35,24 @@
       "price": 100,
       "comment": "This is fresh vegetables",
       "id": 6
+    },
+    {
+      "productName": "GreenChili",
+      "category": "Vegetables",
+      "date": "2022-09-20T18:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 100,
+      "comment": "This is Fresh Product",
+      "id": 7
+    },
+    {
+      "productName": "Samsung A13",
+      "category": "Electronics",
+      "date": "2022-09-26T18:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 22999,
+      "comment": "This is Good Product",
+      "id": 8
     }
   ],
   "comments": [
